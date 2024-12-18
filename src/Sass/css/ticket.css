@@ -1,0 +1,15 @@
+.ticket .ticket-container {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.ticket .ticket-container .ant-card-body {
+  padding: 12px !important;
+}
+
+.ticket .ticket-container .ant-card-body .card-item span {
+  margin-left: 8px;
+  color: #484848;
+  font-size: 12px;
+}
+/*# sourceMappingURL=ticket.css.map */

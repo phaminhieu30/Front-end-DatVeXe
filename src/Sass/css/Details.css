@@ -1,0 +1,197 @@
+@charset "UTF-8";
+.details .slick-list {
+  padding-bottom: 30px;
+}
+
+.details .slick-slider .slick-dots {
+  bottom: 10px;
+}
+
+.details .slick-slider .slick-next {
+  background-color: #777777 !important;
+  right: 52px;
+}
+
+.details .slick-slider .slick-prev {
+  background-color: #777777 !important;
+  left: 45px;
+}
+
+.details .slick-track .slick-slide img {
+  height: 340px;
+  width: auto;
+  margin: auto;
+}
+
+.details .from-start .group {
+  height: 150px;
+  margin-top: 16px;
+  overflow-x: auto;
+  text-align: center;
+}
+
+.details .from-start .group .group-item {
+  justify-content: center;
+  display: flex;
+}
+
+.details .policy {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.details .policy .cancel_policy {
+  position: relative;
+}
+
+.details .policy .cancel_policy .departure {
+  font-weight: bold;
+  font-size: 12px;
+  position: absolute;
+  top: 18px;
+  right: 0px;
+}
+
+.details .policy .cancel_policy .circle {
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  background: white;
+  position: absolute;
+  top: 47px;
+  right: 5%;
+}
+
+.details .policy .cancel_policy .today {
+  left: 83.3333%;
+}
+
+.details .policy .cancel_policy .today::before {
+  content: "Hôm nay";
+  font-size: 12px;
+  position: absolute;
+  top: -35px;
+  width: max-content;
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 5px;
+  transform: translateX(-43%);
+}
+
+.details .policy .cancel_policy .cancellation-timeline {
+  position: relative;
+  display: flex;
+  padding-top: 44px;
+}
+
+.details .policy .cancel_policy .cancellation-timeline .cancellation-policy-period {
+  width: 100%;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+.details .policy .cancel_policy .cancellation-timeline .cancellation-policy-period div {
+  height: 16px;
+}
+
+.details .policy .cancel_policy .cancellation-timeline .cancellation-policy-period p {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.details .policy .cancel_policy .cancellation-timeline .mark {
+  left: calc(33.3333% - 33px);
+  position: absolute;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 12px;
+}
+
+.details .review {
+  margin: auto;
+  width: 80%;
+}
+
+.details .review .rating {
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+}
+
+.details .review .rating .overall-rating {
+  border-radius: 2px;
+  background: #0060c4;
+  color: white;
+  font-size: 16px;
+  padding: 3px 10px;
+  margin-right: 16px;
+}
+
+.details .review .detail-rating .item-rating .rate {
+  position: relative;
+  padding-top: 13px;
+}
+
+.details .review .detail-rating .item-rating .rate .title {
+  font-size: 14px;
+  position: absolute;
+  top: 0px;
+}
+
+.details .review .detail-rating .item-rating .rate .point {
+  font-size: 16px;
+  display: flex;
+  align-items: baseline;
+}
+
+.details .review .detail-rating .item-rating .rate .point .bar {
+  width: 110px;
+  position: relative;
+  background-color: silver;
+  height: 5px;
+  border-radius: 3px;
+  margin-right: 27px;
+}
+
+.details .review .detail-rating .item-rating .rate .point .bar .progress {
+  background-color: #0060c4;
+  height: 5px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 3px;
+}
+
+.details .review .filter-rate {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  overflow: auto;
+  width: auto;
+}
+
+.details .review .filter-rate button {
+  margin-right: 10px;
+}
+
+.details .review .filter-rate .active {
+  color: #0e60d0;
+  border-color: #0e60d0;
+}
+
+.steps-content {
+  min-height: 200px;
+  margin-top: 16px;
+  padding: 25px;
+  background-color: #fafafa;
+  border: 1px dashed #e9e9e9;
+  border-radius: 2px;
+}
+
+.steps-action {
+  margin-top: 24px;
+}
+/*# sourceMappingURL=Details.css.map */

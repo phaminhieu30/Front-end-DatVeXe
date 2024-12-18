@@ -1,0 +1,436 @@
+.booking_pages {
+	width: 980px;
+	margin: auto;
+	display: block;
+	.booking_title {
+		margin-top: 20px;
+		font-size: 18px;
+		font-weight: 500;
+		span {
+			color: #484848;
+		}
+	}
+	.hoanve {
+		font-size: 16px;
+		font-weight: 700;
+		margin-top: 18px;
+		color: rgb(72, 72, 72);
+		display: flex;
+		-webkit-box-align: center;
+		align-items: center;
+	}
+}
+.filter_trip {
+	.time_filter {
+		display: flex;
+		flex-wrap: wrap;
+		.active-filterTime {
+			p {
+				color: #40a9ff !important;
+			}
+			border-color: #40a9ff !important;
+		}
+		button {
+			width: calc(50% - 4.5px);
+			margin-bottom: 9px;
+			margin-right: auto;
+			height: auto;
+			display: flex;
+			flex-direction: column;
+			-webkit-box-align: center;
+			align-items: center;
+			-webkit-box-pack: center;
+			justify-content: center;
+			padding: 8px;
+			border: 1px solid rgb(192, 192, 192);
+			border-radius: 4px;
+			box-shadow: none;
+			background: white !important;
+			p {
+				line-height: 16px;
+				color: rgb(72, 72, 72);
+				margin-bottom: 2px;
+				font-size: 12px;
+				font-weight: 400;
+				line-height: 16px;
+				letter-spacing: 0.1px;
+				margin-bottom: 0px;
+			}
+		}
+	}
+}
+.list_condition {
+	.filter-item-description {
+		margin-top: 4px;
+		font-size: 12px;
+		color: rgb(112, 112, 112);
+		display: inline-block;
+	}
+}
+.filter_passenger,
+.filter_start,
+.filter_end {
+	.filer-passenger {
+		label {
+			margin-left: 0;
+		}
+	}
+}
+.list_trips {
+	.trip-style {
+		.sort {
+			button {
+				margin-right: 5px;
+			}
+		}
+	}
+	.list_card_trips {
+		.ticket_pc {
+			position: absolute;
+			top: 110px;
+			right: 15px;
+			-webkit-box-pack: end;
+			justify-content: flex-end;
+			.seat-available {
+				text-align: right;
+				font-size: 16px;
+				color: rgb(72, 72, 72);
+			}
+			.action {
+				display: flex;
+				align-items: flex-end;
+				float: right;
+				.booking {
+					background: rgb(255, 199, 0);
+					color: rgb(72, 72, 72);
+					font-weight: 500;
+					border-radius: 2px;
+					border: none;
+					padding: 8px 16px;
+					height: 35px;
+				}
+				button {
+					&:first-child {
+						color: rgb(0, 96, 196);
+						font-size: 16px;
+						height: 25px;
+						span {
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+		}
+		.from-to {
+			bottom: 0px;
+			display: flex;
+			-webkit-box-align: center;
+			align-items: center;
+			color: rgb(112, 112, 112);
+			svg {
+				height: 74px;
+				width: 12px;
+				overflow: hidden;
+			}
+			.from-to-content {
+				margin-left: 9px;
+				position: relative;
+				height: 74px;
+				.to {
+					position: absolute;
+					top: 51px;
+				}
+				.from {
+					top: 1px;
+				}
+				.duration {
+					position: absolute;
+					top: 26px;
+					font-size: 14px;
+				}
+				.content {
+					position: absolute;
+
+					display: flex;
+					-webkit-box-align: center;
+					align-items: center;
+					line-height: 20px;
+					.hour {
+						color: rgb(72, 72, 72);
+						font-size: 20px;
+						font-weight: bold;
+						margin-right: 4px;
+					}
+					.place {
+						width: 160px;
+						color: rgb(72, 72, 72);
+						white-space: nowrap;
+						overflow: hidden;
+						text-overflow: ellipsis;
+					}
+				}
+			}
+		}
+		.seat_type {
+		}
+		.bus-info {
+			display: flex;
+			font-size: 20px;
+			color: rgb(0, 96, 196);
+
+			font-weight: bold;
+
+			margin-bottom: 4px;
+		}
+		.bus-name {
+			.bus-title {
+				font-size: 16px;
+				color: rgb(72, 72, 72);
+				font-weight: bold;
+				margin-right: 5px;
+			}
+			.bus-rating {
+				border-radius: 2px;
+				background: rgb(0, 96, 196);
+				color: white;
+				font-size: 14px;
+				padding: 0px 4px;
+			}
+			button {
+				padding: 0px;
+				border: 0px;
+				margin: 0px;
+				background: unset;
+			}
+		}
+		.ant-card {
+			.ant-card-body {
+				padding: 0;
+			}
+			padding: 16px;
+			border: 1px solid rgb(192, 192, 192);
+			border-radius: 4px;
+			border: 1px solid rgb(192, 192, 192);
+			margin-bottom: 16px;
+			transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
+			&:hover {
+				box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+			}
+		}
+		.logo-trips {
+			.image {
+				width: 150px;
+				height: 150px;
+				background-size: cover;
+				background-position: center center;
+				background-repeat: no-repeat;
+				margin-right: 16px;
+				border-radius: 4px;
+				position: relative;
+				.sticker {
+					width: 100%;
+					height: auto;
+					position: absolute;
+					bottom: 0px;
+					left: 0px;
+				}
+				.confirm-ticket {
+					position: absolute;
+					-webkit-box-align: center;
+					align-items: center;
+					justify-content: space-evenly;
+					display: flex;
+					width: 120px;
+					height: 24px;
+					font-size: 12px;
+					left: -6px;
+					top: 10px;
+					padding: 5px 4px;
+					background: rgb(39, 174, 96);
+					color: rgb(255, 255, 255);
+				}
+			}
+			img {
+				height: 100%;
+				width: 100%;
+				object-position: center center;
+				object-fit: cover;
+				position: absolute;
+				bottom: 0px;
+				left: 0px;
+				vertical-align: middle;
+				border-style: none;
+			}
+		}
+	}
+}
+
+.list_trips {
+	.list_card_trips {
+		.footer {
+			width: 100%;
+			border-top: 1px solid rgb(192, 192, 192);
+			padding: 16px 0px 8px;
+			display: flex;
+			-webkit-box-pack: justify;
+			justify-content: space-between;
+			.footer-right {
+				.footer-total {
+					display: inline;
+					color: rgb(0, 96, 196);
+					font-weight: bold;
+					margin-right: 8px;
+				}
+			}
+		}
+	}
+	.seat-groups {
+		display: flex;
+		flex-direction: column;
+		margin-top: 24px;
+		width: 100%;
+		padding-right: 16px;
+		.seat-info {
+			display: flex;
+			align-items: center;
+			margin-bottom: 15px;
+			.seat-thumbnail {
+				margin-right: 8px;
+				svg {
+					width: 16px;
+				}
+			}
+		}
+	}
+	.seat-template {
+		.coach-container {
+			margin-right: 16px;
+			text-align: center;
+		}
+		.coach {
+			padding: 24px 12px 12px;
+			background: rgb(230, 230, 230);
+			border-radius: 25px 25px 5px 5px;
+			table {
+				border-collapse: collapse;
+				.seat-container {
+					min-width: 22px;
+					min-height: 30px;
+				}
+			}
+		}
+	}
+	.trust-message-container {
+		display: inline-block;
+		padding: 8px 12px;
+		border-radius: 4px;
+		background-color: rgb(236, 244, 253);
+		p {
+			color: rgb(14, 99, 193);
+			font-size: 14px;
+			line-height: 20px;
+			letter-spacing: 0px;
+			margin-bottom: 0px;
+		}
+	}
+	.steps-start-content {
+		padding: 20px 0px;
+		min-height: 440px;
+		display: flex;
+		-webkit-box-align: center;
+		align-items: center;
+		-webkit-box-pack: center;
+		justify-content: center;
+		.step-2 {
+			height: 440px;
+
+			.container {
+				flex: 1 1 0%;
+				display: flex;
+				flex-direction: column;
+				border-right: 1px solid rgb(192, 192, 192);
+				.pickup-content {
+					background-color: rgb(247, 247, 247) !important;
+					display: flex;
+					flex-direction: column;
+					padding: 12px 20px;
+					.point-type {
+						font-size: 18px;
+						font-weight: 700;
+						line-height: 24px;
+						letter-spacing: -0.25px;
+						margin-bottom: 0px;
+						color: rgb(72, 72, 72);
+						margin-bottom: 12px;
+					}
+					.label-container {
+						display: flex;
+						flex-direction: row;
+						-webkit-box-pack: justify;
+						justify-content: space-between;
+						p {
+							font-size: 12px;
+							font-weight: 400;
+							line-height: 16px;
+							letter-spacing: 0.1px;
+							margin-bottom: 0px;
+						}
+					}
+					.hidden-button {
+						display: flex;
+						flex-direction: row;
+						padding: 0px;
+						border: 0px;
+						margin: 0px;
+						background-color: unset;
+						cursor: pointer;
+						p {
+							font-size: 12px;
+							max-width: 15ch;
+							white-space: nowrap;
+							overflow: hidden;
+							text-overflow: ellipsis;
+							color: rgb(20, 20, 20);
+						}
+					}
+				}
+			}
+		}
+	}
+	.noteInfo {
+		display: flex;
+		-webkit-box-align: center;
+		align-items: center;
+		-webkit-box-pack: center;
+		justify-content: center;
+		padding: 12px;
+		border-radius: 8px;
+		border: 1px solid rgb(47, 128, 237);
+		margin-top: 16px;
+		margin-bottom: 16px;
+	}
+}
+.info-trip {
+	.ant-form-item-label {
+		label {
+			font-size: 12px;
+			font-weight: bold;
+		}
+		input {
+			border: 1px solid rgb(217, 217, 217);
+		}
+	}
+}
+.radio-label {
+	span {
+		font-size: 14px;
+	}
+}
+
+.gheDaChon {
+	fill: rgb(118, 118, 118);
+	cursor: not-allowed;
+}
+.GheDangChon {
+	fill: rgb(80, 144, 233) !important;
+}

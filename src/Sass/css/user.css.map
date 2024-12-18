@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACC,KADI,CACJ,eAAe,CAAC;EACf,MAAM,EAAE,MAAM;EACd,KAAK,EAAE,GAAG;CACV;;AAJF,AAKC,KALI,CAKJ,cAAc,CAAC;EACd,OAAO,EAAE,eAAe;CAQxB;;AAdF,AAQG,KARE,CAKJ,cAAc,CAEb,UAAU,CACT,IAAI,CAAC;EACJ,WAAW,EAAE,GAAG;EAChB,KAAK,EAAE,OAAe;EACtB,SAAS,EAAE,IAAI;CACf",
+    "sources": [
+        "../UserManagement/user.scss"
+    ],
+    "names": [],
+    "file": "user.css"
+}

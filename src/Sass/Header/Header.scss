@@ -1,0 +1,59 @@
+@import "../Mixin/Mixin.scss";
+.header {
+	width: 70%;
+	margin: 0 auto;
+
+	.header_right {
+	}
+	.header_left {
+		ul {
+			display: flex;
+			justify-content: space-around;
+			list-style: none;
+
+			li {
+				a {
+					@include fontText14;
+					text-decoration: none;
+				}
+			}
+			.hotline {
+				a {
+					@include hotLine($fs-14, $fw-500, $lh, $color-black);
+					border: 1px solid rgb(192, 192, 192);
+					padding: 8px;
+					border-radius: 2px;
+					img {
+						width: 18px;
+						margin-bottom: 2px;
+						margin-right: 5px;
+						vertical-align: middle;
+						border-style: none;
+					}
+				}
+			}
+			.login {
+				.btn_login {
+					img {
+						vertical-align: middle;
+						margin-right: 4px;
+					}
+					cursor: pointer;
+					border-radius: 5px;
+					line-height: 1.5;
+					font-weight: 400;
+					text-align: center;
+					height: 32px;
+					border-color: #1890ff;
+					background-color: rgb(0, 96, 196);
+					color: #fff;
+					text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+					box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+				}
+			}
+		}
+	}
+}
+.header-container {
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 5px;
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACC,OADM,CACN,iBAAiB,CAAC;EACjB,MAAM,EAAE,MAAM;EACd,KAAK,EAAE,GAAG;CAWV;;AAdF,AAIE,OAJK,CACN,iBAAiB,CAGhB,cAAc,CAAC;EACd,OAAO,EAAE,eAAe;CAQxB;;AAbH,AAOI,OAPG,CACN,iBAAiB,CAGhB,cAAc,CAEb,UAAU,CACT,IAAI,CAAC;EACJ,WAAW,EAAE,GAAG;EAChB,KAAK,EAAE,OAAe;EACtB,SAAS,EAAE,IAAI;CACf",
+    "sources": [
+        "../UserManagement/ticket.scss"
+    ],
+    "names": [],
+    "file": "ticket.css"
+}

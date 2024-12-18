@@ -1,0 +1,60 @@
+.header {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.header .header_left ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.header .header_left ul li a {
+  font-size: 14px;
+  line-height: 60px;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+}
+
+.header .header_left ul .hotline a {
+  font-size: 14px;
+  line-height: 60px;
+  font-weight: 500;
+  color: black;
+  border: 1px solid silver;
+  padding: 8px;
+  border-radius: 2px;
+}
+
+.header .header_left ul .hotline a img {
+  width: 18px;
+  margin-bottom: 2px;
+  margin-right: 5px;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.header .header_left ul .login .btn_login {
+  cursor: pointer;
+  border-radius: 5px;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: center;
+  height: 32px;
+  border-color: #1890ff;
+  background-color: #0060c4;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+}
+
+.header .header_left ul .login .btn_login img {
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+.header-container {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 5px;
+}
+/*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,120 @@
+.payment .header-label {
+  font-weight: 500;
+  font-size: 18px;
+  color: #484848;
+}
+
+.payment .header-container {
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 5px;
+}
+
+.payment .header-container .header-body {
+  width: 980px;
+  margin: 0px auto;
+}
+
+.payment .body-payment {
+  min-height: calc(100vh - 48px);
+  width: 980px;
+  margin: auto;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.payment .body-payment .ant-card-body {
+  padding: 12px !important;
+}
+
+.payment .body-payment .ant-collapse {
+  margin-left: 25px;
+  margin-top: 20px;
+  border: none !important;
+  background-color: none !important;
+}
+
+.payment .body-payment .ant-collapse .payment-method {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.payment .body-payment .ant-collapse .payment-hd {
+  font-size: 12px;
+}
+
+.payment .body-payment .ant-radio-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: left !important;
+}
+
+.payment .body-payment .title {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  margin-bottom: 0px;
+}
+
+.payment .body-payment .detail-content-container {
+  margin-left: 25px;
+  margin-top: 2px;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  margin-bottom: 0px;
+}
+
+.payment .body-payment .table-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment .body-payment .table-info .edit-info {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #747474;
+  font-weight: 300;
+  margin-top: 16px;
+}
+
+.payment .body-payment .table-info .edit-info .edit {
+  display: flex;
+  flex: 1 1 0%;
+  justify-content: flex-end;
+}
+
+.payment .body-payment .table-info .row-divider {
+  height: 1px;
+  background: #e3e3e3;
+  margin-top: 16px;
+}
+
+.payment .body-payment .btn-payment {
+  height: 40px;
+  display: flex;
+  flex: 1 1 0%;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 16px;
+  border: 1px solid #ffc700;
+  border-radius: 2px;
+  margin-right: 20px;
+  background: #ffc700;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+.payment .body-payment .btn-payment span {
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+  line-height: 21px;
+}
+/*# sourceMappingURL=Payment.css.map */

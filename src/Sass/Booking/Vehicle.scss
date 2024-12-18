@@ -1,0 +1,150 @@
+.seat-groups {
+	display: flex;
+	flex-direction: column;
+	margin-top: 24px;
+	width: 100%;
+	padding-right: 16px;
+	.seat-info {
+		display: flex;
+		align-items: center;
+		margin-bottom: 15px;
+		.seat-thumbnail {
+			margin-right: 8px;
+			svg {
+				width: 17px;
+			}
+		}
+	}
+}
+.seat-template {
+	.coach-container {
+		margin-right: 16px;
+		text-align: center;
+	}
+	.coach {
+		padding: 24px 12px 12px;
+		background: rgb(230, 230, 230);
+		border-radius: 25px 25px 5px 5px;
+		table {
+			border-collapse: collapse;
+			.seat-container {
+				min-width: 22px;
+				min-height: 30px;
+			}
+		}
+	}
+}
+.trust-message-container {
+	display: inline-block;
+	padding: 8px 12px;
+	border-radius: 4px;
+	background-color: rgb(236, 244, 253);
+	p {
+		color: rgb(14, 99, 193);
+		font-size: 14px;
+		line-height: 20px;
+		letter-spacing: 0px;
+		margin-bottom: 0px;
+	}
+}
+.steps-start-content {
+	padding: 20px 0px;
+	min-height: 440px;
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	.step-2 {
+		height: 440px;
+
+		.container {
+			flex: 1 1 0%;
+			display: flex;
+			flex-direction: column;
+			border-right: 1px solid rgb(192, 192, 192);
+			.pickup-content {
+				background-color: rgb(247, 247, 247) !important;
+				display: flex;
+				flex-direction: column;
+				padding: 12px 20px;
+				.point-type {
+					font-size: 18px;
+					font-weight: 700;
+					line-height: 24px;
+					letter-spacing: -0.25px;
+					margin-bottom: 0px;
+					color: rgb(72, 72, 72);
+					margin-bottom: 12px;
+				}
+				.label-container {
+					display: flex;
+					flex-direction: row;
+					-webkit-box-pack: justify;
+					justify-content: space-between;
+					p {
+						font-size: 12px;
+						font-weight: 400;
+						line-height: 16px;
+						letter-spacing: 0.1px;
+						margin-bottom: 0px;
+					}
+				}
+				.hidden-button {
+					display: flex;
+					flex-direction: row;
+					padding: 0px;
+					border: 0px;
+					margin: 0px;
+					background-color: unset;
+					cursor: pointer;
+					p {
+						font-size: 12px;
+						max-width: 15ch;
+						white-space: nowrap;
+						overflow: hidden;
+						text-overflow: ellipsis;
+						color: rgb(20, 20, 20);
+					}
+				}
+			}
+		}
+	}
+}
+.noteInfo {
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	padding: 12px;
+	border-radius: 8px;
+	border: 1px solid rgb(47, 128, 237);
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+.info-trip {
+	.ant-form-item-label {
+		label {
+			font-size: 12px;
+			font-weight: bold;
+		}
+		input {
+			border: 1px solid rgb(217, 217, 217);
+		}
+	}
+}
+.radio-label {
+	span {
+		font-size: 14px;
+	}
+}
+
+.gheDaChon {
+	fill: rgb(118, 118, 118);
+	cursor: not-allowed;
+}
+.GheDangChon {
+	fill: rgb(80, 144, 233) !important;
+}

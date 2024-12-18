@@ -1,0 +1,216 @@
+.home_banner {
+  transition: all 200ms ease 0s;
+  width: 100%;
+  height: calc(100vh - 150px);
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  z-index: 1;
+  .home_content {
+    position: relative;
+    width: 980px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    .search_trip {
+      max-width: 1366px;
+      margin: auto;
+      background: #fff;
+      border-radius: 5px;
+      position: relative;
+      width: 100%;
+      .search_trips_input {
+        position: relative;
+        .input-1 {
+          position: relative;
+          .icon-map {
+            color: rgb(0, 122, 255);
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 24px;
+            z-index: 2;
+            height: 28px;
+          }
+        }
+      }
+    }
+    .title_banner {
+      display: flex;
+      align-items: flex-end;
+      -webkit-box-pack: center;
+      justify-content: center;
+      margin-bottom: 22px;
+      a {
+        color: #1890ff;
+        text-decoration: none;
+        background-color: rgba(0, 0, 0, 0);
+        outline: none;
+        cursor: pointer;
+        -webkit-transition: color 0.3s;
+        transition: color 0.3s;
+        -webkit-text-decoration-skip: objects;
+        h2 {
+          font-size: 34px;
+          font-weight: 500;
+          margin-bottom: 0px;
+          color: white;
+          text-align: center;
+          line-height: 1;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+  .img_banner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    inset: 0px;
+    vertical-align: middle;
+    border-style: none;
+  }
+}
+.home_slide {
+  width: 68%;
+  margin: auto;
+  display: block;
+  .home_slide_carousel {
+    .slide_main {
+      height: 300px;
+    }
+    .slick-slide {
+      margin: 0 8px;
+      img {
+        height: 225px;
+      }
+    }
+    a {
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+        border-radius: 4px;
+      }
+    }
+  }
+}
+.home_slide_content2 {
+  .ant-card-head {
+    padding: 0;
+  }
+  .ant-card-head-title {
+    padding: 0;
+  }
+}
+.home_slide_content3 {
+  .seo-content {
+    padding-top: 16px;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    .card {
+      margin-right: 8px;
+      display: flex;
+      flex: 1 1 0%;
+      flex-direction: row;
+      align-items: flex-start;
+      -webkit-box-pack: justify;
+      justify-content: space-between;
+      padding: 12px;
+      border: 1px solid rgb(224, 224, 224);
+      border-radius: 4px;
+      .icon-container {
+        margin-right: 8px;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        width: 48px;
+        height: 48px;
+      }
+      .card-content {
+        display: flex;
+        flex: 1 1 0%;
+        flex-direction: column;
+        p:first-child {
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 24px;
+          letter-spacing: -0.25px;
+          margin-bottom: 0px;
+          color: rgb(72, 72, 72);
+          margin-bottom: 8px;
+        }
+        p:last-child {
+          font-size: 14px;
+          line-height: 20px;
+          letter-spacing: 0px;
+          margin-bottom: 0px;
+          color: rgb(133, 133, 133) !important;
+        }
+      }
+    }
+  }
+}
+.home_slide_content4 {
+  .home_slide_tv {
+    a {
+      text-align: center;
+    }
+    img {
+      height: 44px;
+      width: auto;
+
+      vertical-align: middle;
+      border-style: none;
+    }
+  }
+}
+.home_slide_content5 {
+  a {
+    background-image: url("https://storage.googleapis.com/fe-production/images/bx-mien-dong.jpg");
+    height: 161px;
+    display: block;
+    background-position: center center;
+    background-size: cover;
+    width: 233px;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    position: relative;
+    header {
+      font-weight: 500 !important;
+      font-size: 18px !important;
+      bottom: 10px;
+
+      font-size: 100%;
+      position: absolute;
+      z-index: 1;
+      bottom: 20px;
+      text-align: center;
+      width: 100%;
+      color: white;
+      &::after {
+        background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%) 0%
+          0% no-repeat padding-box padding-box transparent;
+        content: "";
+        position: absolute;
+        inset: -37px 0px 0px;
+        height: 80px;
+        opacity: -0.4;
+        border-radius: 3px;
+      }
+    }
+  }
+}

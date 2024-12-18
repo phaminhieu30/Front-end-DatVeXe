@@ -1,0 +1,16 @@
+.ticket {
+	.ticket-container {
+		margin: 0 auto;
+		width: 70%;
+		.ant-card-body {
+			padding: 12px !important;
+			.card-item {
+				span {
+					margin-left: 8px;
+					color: rgb(72, 72, 72);
+					font-size: 12px;
+				}
+			}
+		}
+	}
+}

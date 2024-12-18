@@ -1,0 +1,159 @@
+.seat-groups {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  width: 100%;
+  padding-right: 16px;
+}
+
+.seat-groups .seat-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.seat-groups .seat-info .seat-thumbnail {
+  margin-right: 8px;
+}
+
+.seat-groups .seat-info .seat-thumbnail svg {
+  width: 17px;
+}
+
+.seat-template .coach-container {
+  margin-right: 16px;
+  text-align: center;
+}
+
+.seat-template .coach {
+  padding: 24px 12px 12px;
+  background: #e6e6e6;
+  border-radius: 25px 25px 5px 5px;
+}
+
+.seat-template .coach table {
+  border-collapse: collapse;
+}
+
+.seat-template .coach table .seat-container {
+  min-width: 22px;
+  min-height: 30px;
+}
+
+.trust-message-container {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 4px;
+  background-color: #ecf4fd;
+}
+
+.trust-message-container p {
+  color: #0e63c1;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  margin-bottom: 0px;
+}
+
+.steps-start-content {
+  padding: 20px 0px;
+  min-height: 440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.steps-start-content .step-2 {
+  height: 440px;
+}
+
+.steps-start-content .step-2 .container {
+  flex: 1 1 0%;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid silver;
+}
+
+.steps-start-content .step-2 .container .pickup-content {
+  background-color: #f7f7f7 !important;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 20px;
+}
+
+.steps-start-content .step-2 .container .pickup-content .point-type {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.25px;
+  margin-bottom: 0px;
+  color: #484848;
+  margin-bottom: 12px;
+}
+
+.steps-start-content .step-2 .container .pickup-content .label-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.steps-start-content .step-2 .container .pickup-content .label-container p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  margin-bottom: 0px;
+}
+
+.steps-start-content .step-2 .container .pickup-content .hidden-button {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  background-color: unset;
+  cursor: pointer;
+}
+
+.steps-start-content .step-2 .container .pickup-content .hidden-button p {
+  font-size: 12px;
+  max-width: 15ch;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #141414;
+}
+
+.noteInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #2f80ed;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.info-trip .ant-form-item-label label {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.info-trip .ant-form-item-label input {
+  border: 1px solid #d9d9d9;
+}
+
+.radio-label span {
+  font-size: 14px;
+}
+
+.gheDaChon {
+  fill: #767676;
+  cursor: not-allowed;
+}
+
+.GheDangChon {
+  fill: #5090e9 !important;
+}
+/*# sourceMappingURL=Vehicle.css.map */

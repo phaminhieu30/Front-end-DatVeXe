@@ -1,0 +1,20 @@
+@import "../Variables/Variables.scss";
+@mixin fontText14() {
+  font-size: 14px;
+  line-height: 60px;
+  font-weight: 500;
+  color: $color-black;
+}
+@mixin hotLine($fs, $fw, $line, $color) {
+  font-size: $fs;
+  line-height: $line;
+  font-weight: $fw;
+  color: $color;
+}
+@mixin title_footer() {
+  color: rgb(72, 72, 72);
+  font-size: 18px;
+  border-bottom: none;
+  font-weight: 500;
+  height: 30px;
+}
